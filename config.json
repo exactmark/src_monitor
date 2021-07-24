@@ -1,0 +1,14 @@
+{
+    "watch_path": "C:/Users/exact/go/src/src_monitor/TestFolder",
+    "watched_files":["*.go"],
+    "commands": {
+        "00": {
+            "run": "go bld",
+            "pipe": "bld.log"
+        },
+        "01": {
+            "run": "go test",
+            "pipe": "test.log"
+        }
+    }
+}
